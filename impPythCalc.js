@@ -1,14 +1,3 @@
-function deriv(a,b) {
-    let pow = b;
-    let coeff = a;
-    let deriva = `${coeff*pow}x^${pow - 1}`;
-        return deriva;/*else if (process.argv[2] && !process.argv[3]) {
-        return 'You need to input the exponent!';
-    } else if (!process.argv[2]) {
-        return 'There\'s nothing to derive!';
-    }*/
-}
-
 function hypo() {
     return  Math.sqrt(Math.pow(process.argv[3], 2) + Math.pow(process.argv[4], 2));
 }
